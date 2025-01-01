@@ -1,0 +1,30 @@
+FROM registry.redhat.io/openshift4/driver-toolkit-rhel9:v4.16
+
+ENV PATH /usr/share/bcc/tools:$PATH
+RUN subscription-manager register --username rhn-support-liqcui --password "Redhat00!"
+RUN dnf install -y \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+RUN dnf install -y \
+    ca-certificates \
+    perf \
+    gcc \
+    git \
+    g++ \
+    tcpdump vim iproute \
+    bind-utils procps-ng htop atop\
+    elfutils-libelf-devel cmake3 git bison flex ncurses-devel \
+    luajit luajit-devel python python3-pyroute2 iperf ethtool bison sysstat \
+    flex \
+    && dnf clean all
+
+RUN mkdir /work
+WORKDIR /work
+# Install dependencies for libbcc
+# FROM: https://github.com/iovisor/bcc/blob/master/INSTALL.md#install-build-dependencies
+RUN curl -LO https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/llvm-10.0.1.src.tar.xz && tar -xf llvm-10.0.1.src.tar.xz &&rm -rf llvm-10.0.1.src.tar.xz&&sed -i '/#include <vector>/a\#include <stdexcept>\n#include <limits>' llvm-10.0.1.src/utils/benchmark/src/benchmark_register.h && mkdir llvm-build&& cd llvm-build&& cmake3 -G "Unix Makefiles" -DLLVM_TARGETS_TO_BUILD="BPF;X86" -DCMAKE_BUILD_TYPE=Release ../llvm-10.0.1.src&& make && make install && make clean
+
+RUN curl -LO https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/clang-10.0.1.src.tar.xz && tar -xf clang-10.0.1.src.tar.xz &&rm -rf clang-10.0.1.src.tar.xz&&mkdir clang-build&& cd clang-build&& cmake3 -G "Unix Makefiles" -DLLVM_TARGETS_TO_BUILD="BPF;X86" -DCMAKE_BUILD_TYPE=Release ../clang-10.0.1.src && make && make install && make clean
+
+RUN git clone https://github.com/iovisor/bcc.git && mkdir bcc/build&& cd bcc/build&& cmake3 ..&& make&& make install&&make clean
+
+RUN git clone --depth 1 https://github.com/brendangregg/FlameGraph
