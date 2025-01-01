@@ -1,0 +1,24 @@
+FROM registry.redhat.io/openshift4/driver-toolkit-rhel9:v4.16
+
+ENV PATH /usr/share/bcc/tools:$PATH
+RUN subscription-manager register --username rhn-support-liqcui --password "Redhat00!"
+RUN dnf install -y \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+RUN dnf install -y \
+    ca-certificates \
+    perf \
+    gcc \
+    git \
+    g++ \
+    bpftrace bpftool \
+    tcpdump vim iproute \
+    bind-utils procps-ng htop atop\
+    elfutils-libelf-devel cmake3 git bison flex ncurses-devel \
+    luajit luajit-devel python python3-pyroute2 iperf ethtool bison sysstat \
+    flex \
+    && dnf clean all
+
+RUN mkdir /work
+WORKDIR /work
+
+RUN git clone --depth 1 https://github.com/brendangregg/FlameGraph
