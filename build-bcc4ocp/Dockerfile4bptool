@@ -4,14 +4,24 @@ ENV PATH /usr/share/bcc/tools:$PATH
 RUN subscription-manager register --username rhn-support-liqcui --password "Redhat00!"
 RUN dnf install -y \
 https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+# Install bpftrace and bpftool, and their dependencies (bcc, python-bcc)
 RUN dnf install -y \
     ca-certificates \
     perf \
     gcc \
     git \
     g++ \
+    gdb \
+    strace \
+    stress-ng \
+    stress \
+    glibc-common \
     bpftrace bpftool \
     tcpdump vim iproute \
+    binutils \
+    lsof \
+    util-linux-core \
+    coreutils-single \
     bind-utils procps-ng htop atop\
     elfutils-libelf-devel cmake3 git bison flex ncurses-devel \
     luajit luajit-devel python python3-pyroute2 iperf ethtool bison sysstat \
@@ -20,5 +30,6 @@ RUN dnf install -y \
 
 RUN mkdir /work
 WORKDIR /work
-
+COPY dump-process-memory-bypid.py /work
+COPY dump-process-memory-bypid.sh /work
 RUN git clone --depth 1 https://github.com/brendangregg/FlameGraph
