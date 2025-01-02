@@ -12,9 +12,11 @@ RUN dnf install -y \
     git \
     g++ \
     gdb \
+    jq \
     strace \
     stress-ng \
     stress \
+    perl-open \
     glibc-common \
     bpftrace bpftool \
     tcpdump vim iproute \
@@ -33,3 +35,4 @@ WORKDIR /work
 COPY dump-process-memory-bypid.py /work
 COPY dump-process-memory-bypid.sh /work
 RUN git clone --depth 1 https://github.com/brendangregg/FlameGraph
+ENTRYPOINT [ "/bin/bash"] 
