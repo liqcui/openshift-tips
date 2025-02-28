@@ -1,6 +1,7 @@
 #!/bin/bash
 if [[ -f /proc/$1/maps ]];then
   echo "dump memory for $1"
+  pmap -x -p $1 >pmap-$1.txt
   grep rw-p /proc/$1/maps \
   | sed -n 's/^\([0-9a-f]*\)-\([0-9a-f]*\) .*$/\1 \2/p' \
   | while read start stop; do \

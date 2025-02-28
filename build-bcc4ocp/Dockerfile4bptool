@@ -13,20 +13,25 @@ RUN dnf install -y \
     g++ \
     gdb \
     jq \
+    golang \
+    wget \
     strace \
     stress-ng \
     stress \
     perl-open \
+    conntrack \
     glibc-common \
     bpftrace bpftool \
     tcpdump vim iproute \
     binutils \
+    js-d3-flame-graph \
+    libunwind \
     lsof \
     util-linux-core \
     coreutils-single \
     bind-utils procps-ng htop atop\
     elfutils-libelf-devel cmake3 git bison flex ncurses-devel \
-    luajit luajit-devel python python3-pyroute2 iperf ethtool bison sysstat \
+    luajit luajit-devel python3 python3-bcc python3-pyroute2 iperf ethtool bison sysstat \
     flex \
     && dnf clean all
 
@@ -35,4 +40,7 @@ WORKDIR /work
 COPY dump-process-memory-bypid.py /work
 COPY dump-process-memory-bypid.sh /work
 RUN git clone --depth 1 https://github.com/brendangregg/FlameGraph
+RUN VERSION="v1.32.0"&& wget https://github.com/kubernetes-sigs/cri-tools/releases/download/$VERSION/crictl-$VERSION-linux-amd64.tar.gz && tar zxvf crictl-$VERSION-linux-amd64.tar.gz -C /usr/bin && rm -f crictl-$VERSION-linux-amd64.tar.gz
+#https://0x.tools/
+RUN git clone https://github.com/tanelpoder/0xtools.git && cd 0xtools && make && make install && make clean
 ENTRYPOINT [ "/bin/bash"] 

@@ -1,0 +1,88 @@
+FROM registry.ci.openshift.org/ocp/builder:rhel-9-golang-1.21-openshift-4.16 AS rhel9-builder
+WORKDIR /go/src/github.com/openshift/sdn
+COPY . .
+RUN make build --warn-undefined-variables
+RUN CGO_ENABLED=1 make build GO_BUILD_PACKAGES="github.com/openshift/sdn/cmd/openshift-sdn-cni" --warn-undefined-variables
+
+FROM registry.ci.openshift.org/ocp/builder:rhel-8-golang-1.21-openshift-4.16 AS rhel8-builder
+WORKDIR /go/src/github.com/openshift/sdn
+COPY . .
+RUN make build --warn-undefined-variables
+RUN CGO_ENABLED=1 make build GO_BUILD_PACKAGES="github.com/openshift/sdn/cmd/openshift-sdn-cni" --warn-undefined-variables
+
+FROM registry.ci.openshift.org/ocp/4.16:base-rhel9
+
+ARG ovsver=3.1
+
+RUN mkdir -p /opt/cni/bin/rhel8
+COPY --from=rhel8-builder /go/src/github.com/openshift/sdn/openshift-sdn-cni /opt/cni/bin/rhel8/openshift-sdn
+
+RUN mkdir -p /opt/cni/bin/rhel9
+COPY --from=rhel9-builder /go/src/github.com/openshift/sdn/openshift-sdn-node /usr/bin/
+COPY --from=rhel9-builder /go/src/github.com/openshift/sdn/openshift-sdn-controller /usr/bin/
+COPY --from=rhel9-builder /go/src/github.com/openshift/sdn/openshift-sdn-cni /opt/cni/bin/openshift-sdn
+COPY --from=rhel9-builder /go/src/github.com/openshift/sdn/openshift-sdn-cni /opt/cni/bin/rhel9/openshift-sdn
+COPY --from=rhel9-builder /go/src/github.com/openshift/sdn/host-local /usr/bin/cni/osdn-host-local
+
+RUN INSTALL_PKGS=" \
+      openvswitch${ovsver} container-selinux socat ethtool nmap-ncat \
+      libmnl libnetfilter_conntrack conntrack-tools \
+      libnfnetlink iproute procps-ng openssl \
+      iputils binutils xz util-linux dbus nftables \
+      tcpdump iptables openshift-clients" && \
+    yum install -y --setopt=tsflags=nodocs --setopt=skip_missing_names_on_install=False $INSTALL_PKGS && \
+    mkdir -p /etc/sysconfig/cni/net.d && \
+    yum clean all && rm -rf /var/cache/*
+
+LABEL io.k8s.display-name="OpenShift SDN" \
+      io.k8s.description="This is a component of OpenShift and contains the default SDN implementation." \
+      io.openshift.tags="openshift,sdn,sdn-controller"
+
+FROM registry.redhat.io/openshift4/driver-toolkit-rhel9:v4.16
+
+ENV PATH /usr/share/bcc/tools:$PATH
+ENV KERNELVERSION 5.14.0-427.50.1.el9_4.x86_64
+RUN subscription-manager register --username rhn-support-liqcui --password "Redhat00!"
+RUN dnf install -y \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+# Install bpftrace and bpftool, and their dependencies (bcc, python-bcc)
+RUN dnf install -y \
+    ca-certificates \
+    perf \
+    gcc \
+    git \
+    g++ \
+    gdb \
+    jq \
+    golang \
+    wget \
+    strace \
+    stress-ng \
+    stress \
+    perl-open \
+    conntrack \
+    glibc-common \
+    bpftrace bpftool \
+    tcpdump vim iproute \
+    binutils \
+    js-d3-flame-graph \
+    libunwind \
+    lsof \
+    util-linux-core \
+    kernel-core-${KERNELVERSION} kernel-headers-${KERNELVERSION} \
+    coreutils-single \
+    bind-utils procps-ng htop atop\
+    elfutils-libelf-devel cmake3 git bison flex ncurses-devel \
+    luajit luajit-devel python3 python3-bcc python3-pyroute2 iperf ethtool bison sysstat \
+    flex \
+    && dnf clean all
+
+RUN mkdir /work
+WORKDIR /work
+COPY dump-process-memory-bypid.py /work
+COPY dump-process-memory-bypid.sh /work
+RUN git clone --depth 1 https://github.com/brendangregg/FlameGraph
+RUN VERSION="v1.32.0"&& wget https://github.com/kubernetes-sigs/cri-tools/releases/download/$VERSION/crictl-$VERSION-linux-amd64.tar.gz && tar zxvf crictl-$VERSION-linux-amd64.tar.gz -C /usr/bin && rm -f crictl-$VERSION-linux-amd64.tar.gz
+#https://0x.tools/
+RUN git clone https://github.com/tanelpoder/0xtools.git && cd 0xtools && make && make install && make clean
+ENTRYPOINT [ "/bin/bash"] 
