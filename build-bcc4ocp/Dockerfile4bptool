@@ -1,7 +1,7 @@
 FROM registry.redhat.io/openshift4/driver-toolkit-rhel9:v4.16
 
 ENV PATH /usr/share/bcc/tools:$PATH
-RUN subscription-manager register --username rhn-support-liqcui --password "Redhat00!"
+RUN subscription-manager register --username xxxxx --password xxxxxx 
 RUN dnf install -y \
 https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 # Install bpftrace and bpftool, and their dependencies (bcc, python-bcc)
