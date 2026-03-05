@@ -1,0 +1,11 @@
+# Auto-generated files (now in /tmp, but keeping for reference)
+pod-port-map.lst
+pod-port-map.lst.backup.*
+
+# Collected data
+pprof-data-control-plane/
+pprof-data-node/
+
+# Backup archives
+backups-archive-*.tar.gz
+backup-*/

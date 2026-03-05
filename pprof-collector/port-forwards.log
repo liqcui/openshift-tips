@@ -1,0 +1,1968 @@
+Starting port-forwards...
+
+✓ ovnkube-control-plane-d48758dd6-887vx -> localhost:8100
+✓ ovnkube-control-plane-d48758dd6-l2k8r -> localhost:8101
+✓ ovnkube-node-cnfdr -> localhost:8200
+✓ ovnkube-node-gdz94 -> localhost:8201
+✓ ovnkube-node-sfnn6 -> localhost:8202
+✓ ovnkube-node-v4l78 -> localhost:8203
+✓ ovnkube-node-wzj4f -> localhost:8204
+
+All port-forwards started!
+Press Ctrl+C to stop all port-forwards
+
+[11:42:45] Port-forwards alive: 7, dead: 0
+[11:43:45] Port-forwards alive: 7, dead: 0
+[11:44:45] Port-forwards alive: 7, dead: 0
+[11:45:45] Port-forwards alive: 7, dead: 0
+[11:46:45] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:47:45] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:48:45] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:49:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:50:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:51:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:52:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:53:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:54:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:55:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:56:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:57:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:58:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[11:59:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:00:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:01:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:02:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:03:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:04:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:05:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:06:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:07:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:08:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:09:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:10:46] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:11:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:12:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:13:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:14:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:15:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:16:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:17:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:18:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:19:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:20:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:21:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:22:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:23:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:24:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:25:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:26:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:27:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:28:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:29:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:30:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:31:47] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:32:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:33:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:34:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:35:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:36:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:37:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:38:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:39:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:40:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:41:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:42:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:43:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:44:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:45:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:46:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:47:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:48:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:49:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:50:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:51:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:52:48] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:53:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:54:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:55:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:56:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:57:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:58:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[12:59:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:00:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:01:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:02:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:03:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:04:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:05:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:06:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:07:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:08:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:09:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:10:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:11:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:12:49] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:13:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:14:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:15:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:16:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:17:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:18:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:19:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:20:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:21:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:22:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:23:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:24:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:25:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:26:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:27:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:28:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:29:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:30:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:31:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:32:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:33:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:34:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:35:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:36:50] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:37:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:38:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:39:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:40:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:41:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:42:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:43:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:44:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:45:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:46:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:47:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:48:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:49:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:50:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:51:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:52:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:53:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:54:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:55:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:56:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:57:51] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:58:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[13:59:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:00:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:01:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:02:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:03:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:04:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:05:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:06:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:07:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:08:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:09:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:10:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:11:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:12:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:13:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:14:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:15:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:16:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:17:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:18:52] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:19:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:20:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:21:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:22:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:23:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:24:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:25:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:26:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:27:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:28:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:29:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:30:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:31:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:32:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:33:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:34:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:35:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:36:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:37:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:38:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:39:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:40:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:41:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:42:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:43:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:44:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:45:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:46:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:47:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:48:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:49:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:50:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:51:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:52:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:53:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:54:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:55:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:56:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:57:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:58:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[14:59:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:00:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:01:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:02:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:03:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:04:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:05:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:06:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:07:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:08:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:09:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:10:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:11:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:12:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:13:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:14:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:15:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:16:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:17:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:18:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:19:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:20:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:21:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:22:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:23:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:24:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:25:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:26:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:27:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:28:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:29:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:30:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:31:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:32:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:33:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:34:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:35:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:36:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:37:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:38:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:39:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:40:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:41:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:42:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:43:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:44:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:45:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:46:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:47:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:48:56] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:49:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:50:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:51:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:52:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:53:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:54:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:55:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:56:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:57:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:58:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[15:59:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:00:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:01:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:02:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:03:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:04:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:05:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:06:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:07:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:08:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:09:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:10:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:11:57] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:12:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:13:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:14:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:15:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:16:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:17:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:18:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:19:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:20:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:21:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:22:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:23:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:24:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:25:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:26:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:27:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:28:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:29:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:30:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:31:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:32:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:33:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:34:58] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:35:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:36:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:37:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:38:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:39:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:40:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:41:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:42:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:43:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:44:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:45:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:46:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:47:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:48:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:49:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:50:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:51:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:52:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:53:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:54:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:55:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:56:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:57:59] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[16:59:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:00:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:01:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:02:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:03:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:04:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:05:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:06:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:07:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:08:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:09:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:10:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:11:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:12:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:13:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:14:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:15:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:16:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:17:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:18:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:19:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:20:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:21:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:22:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:23:00] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:24:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:25:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:26:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:27:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:28:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:29:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:30:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:31:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:32:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:33:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:34:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:35:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:36:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:37:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:38:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:39:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:40:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:41:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:42:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:43:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:44:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:45:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:46:01] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:47:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:48:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:49:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:50:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:51:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:52:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:53:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:54:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:55:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:56:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:57:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:58:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[17:59:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:00:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:01:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:02:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:03:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:04:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:05:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:06:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:07:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:08:02] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:09:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:10:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:11:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:12:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:13:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:14:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:15:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:16:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:17:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:18:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:19:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:20:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:21:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:22:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:23:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:24:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:25:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:26:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:27:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:28:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:29:03] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:30:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:31:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:32:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:33:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:34:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:35:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:36:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:37:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:38:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:39:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:40:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:41:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:42:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:43:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:44:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:45:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:46:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:47:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:48:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:49:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:50:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:51:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:52:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:53:04] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:54:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:55:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:56:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:57:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:58:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[18:59:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:00:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:01:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:02:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:03:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:04:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:05:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:06:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:07:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:08:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:09:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:10:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:11:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:12:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:13:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:14:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:15:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:16:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:17:05] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:18:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:19:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:20:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:21:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:22:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:23:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:24:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:25:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:26:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:27:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:28:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:29:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:30:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:31:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:32:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:33:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:34:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:35:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:36:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:37:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:38:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:39:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:40:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:41:06] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:42:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:43:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:44:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:45:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:46:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:47:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:48:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:49:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:50:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:51:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:52:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:53:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:54:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:55:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:56:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:57:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:58:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[19:59:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:00:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:01:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:02:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:03:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:04:07] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:05:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:06:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:07:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:08:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:09:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:10:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:11:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:12:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:13:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:14:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:15:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:16:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:17:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:18:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:19:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:20:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:21:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:22:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:23:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:24:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:25:08] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:26:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:27:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:28:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:29:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:30:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:31:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:32:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:33:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:34:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:35:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:36:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:37:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:38:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:39:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:40:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:41:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:42:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:43:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:44:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:45:09] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:46:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:47:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:48:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:49:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:50:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:51:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:52:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:53:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:54:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:55:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:56:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:57:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:58:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[20:59:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:00:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:01:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:02:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:03:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:04:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:05:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:06:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:07:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:08:10] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:09:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:10:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:11:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:12:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:13:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:14:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:15:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:16:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:17:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:18:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:19:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:20:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:21:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:22:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:23:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:24:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:25:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:26:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:27:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:28:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:29:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:30:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:31:11] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:32:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:33:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:34:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:35:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:36:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:37:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:38:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:39:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:40:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:41:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:42:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:43:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:44:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:45:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:46:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:47:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:48:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:49:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:50:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:51:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:52:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:53:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:54:12] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:55:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:56:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:57:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:58:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:59:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:00:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:01:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:02:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:03:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:04:13] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+the script to re-establish connections.
+[21:33:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:34:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:35:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:36:53] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:37:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:38:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:39:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:40:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:41:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:42:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:43:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:44:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:45:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:46:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:47:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:48:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:49:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:50:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:51:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:52:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:53:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:54:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:55:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:56:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:57:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:58:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[21:59:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:00:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:01:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:02:54] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:03:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.
+[22:04:55] Port-forwards alive: 0, dead: 7
+WARNING: Some port-forwards have died!
+Restart the script to re-establish connections.

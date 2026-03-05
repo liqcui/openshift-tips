@@ -8,6 +8,7 @@ if [[ -f /proc/$1/maps ]];then
     gdb --batch --pid $1 -ex \
         "dump memory $1-$start-$stop.dump 0x$start 0x$stop"; \
   done
+  #gcore -o /host/var/tmp/ovnkube-master $pid
 else
   echo please specify correct process id PID
   exit 1
