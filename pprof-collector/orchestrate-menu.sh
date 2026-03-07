@@ -19,20 +19,21 @@ read -p "Select mode [1-4]: " mode
 
 # Setup port forwards for all modes
 setup_port_forwards() {
-    if [[ ! -f "pod-port-map.lst" ]]; then
-        echo "Generating pod-port mapping..."
-        ./setup-portforward.sh setup || exit 1
+    # Always regenerate pod-port mapping to ensure fresh pod information
+    echo "Regenerating pod-port mapping..."
+    ./setup-portforward.sh setup || exit 1
+    echo ""
+
+    # Stop existing port-forwards before starting new ones
+    if pgrep -f "port-forward.*ovnkube" > /dev/null; then
+        echo "Stopping existing port-forwards..."
+        ./setup-portforward.sh stop
         echo ""
     fi
 
-    if ! pgrep -f "port-forward.*ovnkube" > /dev/null; then
-        echo "Starting port-forwards..."
-        ./setup-portforward.sh start || exit 1
-        echo ""
-    else
-        echo "✓ Port-forwards already running"
-        echo ""
-    fi
+    echo "Starting port-forwards..."
+    ./setup-portforward.sh start || exit 1
+    echo ""
 }
 
 case $mode in

@@ -135,7 +135,12 @@ METRIC_TYPE=ram TOP_N_NODES=1 DURATION=30 INTERVAL=35 ./collect-top-metric.sh
 
 ### Initial Setup
 
-The setup happens automatically when you run `orchestrate-menu.sh`, but you can also run manually:
+The setup happens automatically when you run `orchestrate-menu.sh`:
+- **Regenerates** `pod-port-map.lst` with current pod information
+- **Stops** any existing port-forwards
+- **Starts** fresh port-forwards for all pods
+
+You can also run setup manually:
 
 ```bash
 # All-in-one setup script
@@ -143,6 +148,8 @@ The setup happens automatically when you run `orchestrate-menu.sh`, but you can 
 ./setup-portforward.sh start   # Start port-forwards
 ./setup-portforward.sh status  # Check status
 ```
+
+**Note:** `orchestrate-menu.sh` always regenerates pod mappings on each run to ensure it works with current pods, even if pods have been recreated or scaled.
 
 ## Collected Profiles
 
