@@ -236,6 +236,7 @@ collect_pprof() {
     curl -s -f --max-time 30 "${base_url}/goroutine?debug=1" -o "${base_name}.goroutine" 2>/dev/null &
     curl -s -f --max-time 30 "${base_url}/mutex" -o "${base_name}.mutex" 2>/dev/null &
     curl -s -f --max-time 30 "${base_url}/block" -o "${base_name}.block" 2>/dev/null &
+    curl -s -f --max-time $((duration + 10)) "${base_url}/trace?seconds=${duration}" -o "${base_name}.trace" 2>/dev/null &
 
     # Wait for all parallel collections
     wait
