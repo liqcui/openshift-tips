@@ -12,10 +12,15 @@ echo "  1. Threshold-based CPU (2 CP + node when NODE CPU > threshold)"
 echo "  2. Threshold-based RAM (2 CP + node when NODE RAM > threshold)"
 echo "  3. Top CPU pods optimized (2 CP + top 1 node periodically) ⭐ RECOMMENDED"
 echo "  4. Top RAM pods optimized (2 CP + top 1 node periodically)"
+echo "  5. Threshold-based CPU - CPU-only profiles (profile, trace, goroutine)"
+echo "  6. Threshold-based RAM - RAM-only profiles (heap, goroutine)"
 echo ""
-echo "Modes 1-2 monitor NODE metrics; Modes 3-4 collect periodically."
+echo "Modes 1-4 collect: profile, heap, goroutine, trace (core profiles)"
+echo "Modes 5-6 collect only CPU or RAM related pprof data."
 echo ""
-read -p "Select mode [1-4]: " mode
+echo "Optional profiles: COLLECT_MUTEX=1, COLLECT_ALLOCS=1, COLLECT_BLOCK=1"
+echo ""
+read -p "Select mode [1-6]: " mode
 
 # Setup port forwards for all modes
 setup_port_forwards() {
@@ -172,6 +177,84 @@ case $mode in
             echo ""
             METRIC_TYPE=ram TOP_N_NODES=1 ./collect-top-metric.sh
         fi
+        ;;
+
+    5)
+        echo ""
+        echo "Starting NODE CPU threshold-based collection (CPU-only profiles)..."
+        echo ""
+        echo "This mode collects only CPU-related profiles:"
+        echo "  - profile (CPU profiling)"
+        echo "  - trace (execution trace)"
+        echo "  - goroutine (goroutine stacks)"
+        echo ""
+        echo "Optional: COLLECT_MUTEX=1, COLLECT_BLOCK=1"
+        echo ""
+        echo "CPU Threshold Options (NODE-level):"
+        echo "  - Percentage: e.g., 80%, 100%, 110% (of node CPU capacity)"
+        echo "  - Millicores: e.g., 2000m, 3000m, 4000m (absolute CPU cores)"
+        echo ""
+        read -p "CPU threshold [default: 80%]: " cpu_threshold
+        CPU_THRESHOLD=${cpu_threshold:-80%}
+
+        # Add 'm' suffix if user entered plain number (without %)
+        if [[ $CPU_THRESHOLD =~ ^[0-9]+$ ]]; then
+            CPU_THRESHOLD="${CPU_THRESHOLD}m"
+        fi
+
+        read -p "Check interval in seconds [default: 60]: " interval
+        INTERVAL=${interval:-60}
+
+        read -p "Profile duration in seconds [default: 30]: " duration
+        DURATION=${duration:-30}
+
+        setup_port_forwards
+
+        echo ""
+        echo "Starting CPU threshold collection (CPU-only profiles)..."
+        echo "  CPU Threshold: ${CPU_THRESHOLD}"
+        echo "  Check Interval: ${INTERVAL}s"
+        echo "  Profile Duration: ${DURATION}s"
+        echo "  Profile Types: CPU-related only"
+        echo ""
+
+        METRIC_TYPE=cpu PPROF_MODE=cpu CPU_THRESHOLD=${CPU_THRESHOLD%m} INTERVAL=$INTERVAL DURATION=$DURATION ./collect-threshold-metric.sh
+        ;;
+
+    6)
+        echo ""
+        echo "Starting NODE RAM threshold-based collection (RAM-only profiles)..."
+        echo ""
+        echo "This mode collects only RAM-related profiles:"
+        echo "  - heap (memory heap snapshot - includes allocation info)"
+        echo "  - goroutine (goroutine stacks)"
+        echo ""
+        echo "Optional: Set COLLECT_ALLOCS=1 to also collect allocs profiling"
+        echo ""
+        echo "RAM Threshold Options (NODE-level):"
+        echo "  - Percentage: e.g., 60%, 80%, 90% (of node memory capacity)"
+        echo "  - Mi: e.g., 8000, 10000, 12000 (absolute memory in Mi)"
+        echo ""
+        read -p "RAM threshold [default: 80%]: " ram_threshold
+        RAM_THRESHOLD=${ram_threshold:-80%}
+
+        read -p "Check interval in seconds [default: 60]: " interval
+        INTERVAL=${interval:-60}
+
+        read -p "Profile duration in seconds [default: 30]: " duration
+        DURATION=${duration:-30}
+
+        setup_port_forwards
+
+        echo ""
+        echo "Starting RAM threshold collection (RAM-only profiles)..."
+        echo "  RAM Threshold: ${RAM_THRESHOLD}Mi"
+        echo "  Check Interval: ${INTERVAL}s"
+        echo "  Profile Duration: ${DURATION}s"
+        echo "  Profile Types: RAM-related only"
+        echo ""
+
+        METRIC_TYPE=ram PPROF_MODE=ram RAM_THRESHOLD=$RAM_THRESHOLD INTERVAL=$INTERVAL DURATION=$DURATION ./collect-threshold-metric.sh
         ;;
 
     *)

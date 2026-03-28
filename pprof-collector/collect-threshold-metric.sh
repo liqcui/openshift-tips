@@ -16,6 +16,7 @@ INTERVAL=${INTERVAL:-60}                 # Check interval in seconds
 CPU_THRESHOLD=${CPU_THRESHOLD:-80%}      # CPU threshold: 3000m or 80%
 RAM_THRESHOLD=${RAM_THRESHOLD:-80%}      # RAM threshold: 10000Mi or 80%
 COLLECTION_COUNT=${COLLECTION_COUNT:-0}  # 0 = infinite, >0 = stop after N collections
+PPROF_MODE=${PPROF_MODE:-all}            # all, cpu, or ram
 
 # Validate prerequisites
 ensure_output_dirs
@@ -195,7 +196,13 @@ check_and_collect() {
         fi
         echo "  Resources: CPU=$cpu_size, RAM=$ram_size"
 
-        collect_pprof "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        if [[ "$PPROF_MODE" == "cpu" ]]; then
+            collect_pprof_cpu "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        elif [[ "$PPROF_MODE" == "ram" ]]; then
+            collect_pprof_ram "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        else
+            collect_pprof "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        fi
         collected_cp=$((collected_cp + 1))
     done
 
@@ -228,7 +235,13 @@ check_and_collect() {
             echo "  Pod Resources: CPU=$cpu_usage, RAM=$ram_usage"
             echo "  Node Metrics: CPU=$node_cpu ($node_cpu_pct), RAM=$node_ram ($node_ram_pct)"
 
-            collect_pprof "$top_node_pod" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+            if [[ "$PPROF_MODE" == "cpu" ]]; then
+                collect_pprof_cpu "$top_node_pod" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+            elif [[ "$PPROF_MODE" == "ram" ]]; then
+                collect_pprof_ram "$top_node_pod" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+            else
+                collect_pprof "$top_node_pod" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+            fi
             collected_node=$((collected_node + 1))
         fi
     fi

@@ -15,6 +15,7 @@ DURATION=${DURATION:-30}                 # Profile duration in seconds
 INTERVAL=${INTERVAL:-35}                 # Collection interval
 COLLECTION_COUNT=${COLLECTION_COUNT:-0}  # 0 = infinite, >0 = stop after N cycles
 TOP_N_NODES=${TOP_N_NODES:-1}            # Number of top nodes to collect from
+PPROF_MODE=${PPROF_MODE:-all}            # all, cpu, or ram
 
 # Validate prerequisites
 ensure_output_dirs
@@ -137,7 +138,13 @@ collect_from_pods() {
         fi
         echo "  Resources: CPU=$cpu_size, RAM=$ram_size"
 
-        collect_pprof "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        if [[ "$PPROF_MODE" == "cpu" ]]; then
+            collect_pprof_cpu "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        elif [[ "$PPROF_MODE" == "ram" ]]; then
+            collect_pprof_ram "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        else
+            collect_pprof "$pod_name" "$proxy_port" "$cpu_size" "$ram_size" "control-plane" &
+        fi
         collected_cp=$((collected_cp + 1))
     done
 
@@ -166,7 +173,13 @@ collect_from_pods() {
         echo "  Port: $proxy_port"
         echo "  Resources: CPU=$cpu_usage, RAM=$ram_usage"
 
-        collect_pprof "$pod_name" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+        if [[ "$PPROF_MODE" == "cpu" ]]; then
+            collect_pprof_cpu "$pod_name" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+        elif [[ "$PPROF_MODE" == "ram" ]]; then
+            collect_pprof_ram "$pod_name" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+        else
+            collect_pprof "$pod_name" "$proxy_port" "$cpu_usage" "$ram_usage" "node" &
+        fi
         collected_node=$((collected_node + 1))
     done
 

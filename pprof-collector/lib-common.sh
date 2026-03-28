@@ -16,6 +16,11 @@ OUTPUT_DIR_NODE="${OUTPUT_DIR_NODE:-./pprof-data-node}"
 CONTROL_PLANE_TARGET_PORT=29108
 NODE_TARGET_PORT=29103
 
+# Pprof collection toggles (set to 1 to enable, empty or 0 to disable)
+COLLECT_MUTEX=${COLLECT_MUTEX:-}      # Mutex profiling (often empty unless SetMutexProfileFraction is set)
+COLLECT_ALLOCS=${COLLECT_ALLOCS:-}    # Allocs profiling (heap already includes allocation info)
+COLLECT_BLOCK=${COLLECT_BLOCK:-}      # Block profiling (often empty unless SetBlockProfileRate is set)
+
 # ===========================================
 # Metric Conversion Functions
 # ===========================================
@@ -229,19 +234,103 @@ collect_pprof() {
 
     echo "    Collecting pprof data..."
 
-    # Collect profiles in parallel for speed
+    # Collect core profiles in parallel for speed
     curl -s -f --max-time $((duration + 10)) "${base_url}/profile?seconds=${duration}" -o "${base_name}.profile" 2>/dev/null &
     curl -s -f --max-time 30 "${base_url}/heap" -o "${base_name}.heap" 2>/dev/null &
-    curl -s -f --max-time 30 "${base_url}/allocs" -o "${base_name}.allocs" 2>/dev/null &
     curl -s -f --max-time 30 "${base_url}/goroutine?debug=1" -o "${base_name}.goroutine" 2>/dev/null &
-    curl -s -f --max-time 30 "${base_url}/mutex" -o "${base_name}.mutex" 2>/dev/null &
-    curl -s -f --max-time 30 "${base_url}/block" -o "${base_name}.block" 2>/dev/null &
     curl -s -f --max-time $((duration + 10)) "${base_url}/trace?seconds=${duration}" -o "${base_name}.trace" 2>/dev/null &
+
+    # Optional profiles (only if explicitly enabled)
+    [[ "$COLLECT_ALLOCS" == "1" ]] && curl -s -f --max-time 30 "${base_url}/allocs" -o "${base_name}.allocs" 2>/dev/null &
+    [[ "$COLLECT_MUTEX" == "1" ]] && curl -s -f --max-time 30 "${base_url}/mutex" -o "${base_name}.mutex" 2>/dev/null &
+    [[ "$COLLECT_BLOCK" == "1" ]] && curl -s -f --max-time 30 "${base_url}/block" -o "${base_name}.block" 2>/dev/null &
 
     # Wait for all parallel collections
     wait
 
     echo "      ✓ Collection complete"
+}
+
+# Collect CPU-related pprof profiles only
+# Args: pod_name, proxy_port, cpu_size, ram_size, pod_type
+collect_pprof_cpu() {
+    local pod_name=$1
+    local proxy_port=$2
+    local cpu_size=$3
+    local ram_size=$4
+    local pod_type=$5
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+
+    # Determine output directory and port suffix
+    local output_dir
+    local port_suffix
+    if [[ $pod_type == "control-plane" ]]; then
+        output_dir="$OUTPUT_DIR_CP"
+        port_suffix="29108"
+    else
+        output_dir="$OUTPUT_DIR_NODE"
+        port_suffix="29103"
+    fi
+
+    local base_name="${output_dir}/${pod_name}-CPU${cpu_size}-RAM${ram_size}-${port_suffix}-${timestamp}"
+    local base_url="http://localhost:${proxy_port}/debug/pprof"
+    local duration=${DURATION:-30}
+
+    echo "    Collecting CPU-related pprof data..."
+
+    # Collect CPU-related profiles: profile, trace, goroutine
+    curl -s -f --max-time $((duration + 10)) "${base_url}/profile?seconds=${duration}" -o "${base_name}.profile" 2>/dev/null &
+    curl -s -f --max-time 30 "${base_url}/goroutine?debug=1" -o "${base_name}.goroutine" 2>/dev/null &
+    curl -s -f --max-time $((duration + 10)) "${base_url}/trace?seconds=${duration}" -o "${base_name}.trace" 2>/dev/null &
+
+    # Optional profiles (only if explicitly enabled)
+    [[ "$COLLECT_MUTEX" == "1" ]] && curl -s -f --max-time 30 "${base_url}/mutex" -o "${base_name}.mutex" 2>/dev/null &
+    [[ "$COLLECT_BLOCK" == "1" ]] && curl -s -f --max-time 30 "${base_url}/block" -o "${base_name}.block" 2>/dev/null &
+
+    # Wait for all parallel collections
+    wait
+
+    echo "      ✓ CPU profiling complete"
+}
+
+# Collect RAM-related pprof profiles only
+# Args: pod_name, proxy_port, cpu_size, ram_size, pod_type
+collect_pprof_ram() {
+    local pod_name=$1
+    local proxy_port=$2
+    local cpu_size=$3
+    local ram_size=$4
+    local pod_type=$5
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+
+    # Determine output directory and port suffix
+    local output_dir
+    local port_suffix
+    if [[ $pod_type == "control-plane" ]]; then
+        output_dir="$OUTPUT_DIR_CP"
+        port_suffix="29108"
+    else
+        output_dir="$OUTPUT_DIR_NODE"
+        port_suffix="29103"
+    fi
+
+    local base_name="${output_dir}/${pod_name}-CPU${cpu_size}-RAM${ram_size}-${port_suffix}-${timestamp}"
+    local base_url="http://localhost:${proxy_port}/debug/pprof"
+    local duration=${DURATION:-30}
+
+    echo "    Collecting RAM-related pprof data..."
+
+    # Collect RAM-related profiles: heap, goroutine
+    curl -s -f --max-time 30 "${base_url}/heap" -o "${base_name}.heap" 2>/dev/null &
+    curl -s -f --max-time 30 "${base_url}/goroutine?debug=1" -o "${base_name}.goroutine" 2>/dev/null &
+
+    # Optional profiles (only if explicitly enabled)
+    [[ "$COLLECT_ALLOCS" == "1" ]] && curl -s -f --max-time 30 "${base_url}/allocs" -o "${base_name}.allocs" 2>/dev/null &
+
+    # Wait for all parallel collections
+    wait
+
+    echo "      ✓ RAM profiling complete"
 }
 
 # ===========================================
